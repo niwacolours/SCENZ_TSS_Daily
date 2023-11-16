@@ -1,0 +1,48 @@
+{
+  "groups": [
+    {
+      "name": "Date",
+      "desc": "",
+      "operator": "=",
+      "defaultVal": "2023-02-01",
+      "appendSameLayer": true,
+      "appendSameLayerConjunc": "OR",
+      "caseSearch": false,
+      "layers": [
+        {
+          "layer": "TSS_D_9964",
+          "field": "StdTime",
+          "dataType": "esriFieldTypeDate",
+          "useDomain": true
+        },
+        {
+          "layer": "TSS_Dlti_8783",
+          "field": "StdTime",
+          "dataType": "esriFieldTypeDate",
+          "useDomain": ""
+        },
+        {
+          "layer": "18bd43a97aa-layer-4",
+          "field": "StdTime",
+          "dataType": "esriFieldTypeDate",
+          "useDomain": ""
+        },
+        {
+          "layer": "18bd42f647d-layer-3",
+          "field": "StdTime",
+          "dataType": "esriFieldTypeDate",
+          "useDomain": ""
+        },
+        {
+          "layer": "18bd4a9e2a0-layer-24",
+          "field": "AcquisitionDate",
+          "dataType": "esriFieldTypeDate",
+          "useDomain": ""
+        }
+      ]
+    }
+  ],
+  "persistOnClose": true,
+  "slAppendChoice": "OR",
+  "headerText": "Select a Group to Filter"
+}

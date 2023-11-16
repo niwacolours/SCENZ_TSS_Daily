@@ -1,0 +1,31 @@
+{
+  "display": "both",
+  "zoomLevel": 1,
+  "searchExtent": 75,
+  "autoRefresh": false,
+  "listImagesSeparate": true,
+  "TSS_Dlti_8783": {
+    "imageField": "StdTime",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "MODIS: TSS (g/m3) - Gap-free"
+  },
+  "TSS_D_9964": {
+    "imageField": "StdTime",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "MODIS: TSS (g/m3) - Observed"
+  },
+  "18bd42f647d-layer-3": {
+    "imageField": "StdTime",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "Sentinel-3: TSM (g/m3) - Gap-free"
+  },
+  "18bd43a97aa-layer-4": {
+    "imageField": "StdTime",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "Sentinel-3: TSM (g/m3) - Observed"
+  }
+}

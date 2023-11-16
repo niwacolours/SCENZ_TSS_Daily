@@ -1,0 +1,36 @@
+{
+  "style": "vertical",
+  "layerState": {
+    "TSS_D_9964": {
+      "selected": true
+    },
+    "TSS_Dlti_8783": {
+      "selected": true
+    },
+    "18bd471d384-layer-20": {
+      "selected": false
+    },
+    "18bd4686b9b-layer-11": {
+      "selected": true
+    },
+    "18bd4676288-layer-10": {
+      "selected": true
+    },
+    "18bd4567193-layer-5": {
+      "selected": false
+    },
+    "18bd43a97aa-layer-4": {
+      "selected": true
+    },
+    "18bd42f647d-layer-3": {
+      "selected": true
+    }
+  },
+  "layer": "TSS_D_9964",
+  "isZoom": false,
+  "handleColor": "#dadada",
+  "layerMode": "single",
+  "defaultLayers": [],
+  "invertPlacement": false,
+  "isHidePanel": false
+}
