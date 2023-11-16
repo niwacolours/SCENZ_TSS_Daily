@@ -26,7 +26,9 @@
     "gistest.niwa.co.nz",
     "arcedevportal.niwa.local",
     "services.arcgis.com",
-    "services3.arcgis.com"
+    "services3.arcgis.com",
+    "https://main--bucolic-smakager-081edc.netlify.app",
+    "https://bucolic-smakager-081edc.netlify.app"
   ],
   "title": "NIWA-SCENZ TSS Daily",
   "subtitle": "with ArcGIS Web AppBuilder",
