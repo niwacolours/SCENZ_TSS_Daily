@@ -26,12 +26,10 @@
     "gistest.niwa.co.nz",
     "arcedevportal.niwa.local",
     "services.arcgis.com",
-    "services3.arcgis.com",
-    "main--bucolic-smakager-081edc.netlify.app",
-    "bucolic-smakager-081edc.netlify.app"
+    "services3.arcgis.com"
   ],
-  "title": "NIWA-SCENZ TSS Daily",
-  "subtitle": "with ArcGIS Web AppBuilder",
+  "title": "Cyclone Gabrielle Daily-SCENZ",
+  "subtitle": "",
   "keepAppState": true,
   "logo": "https://gis.niwa.co.nz/portal/sharing/rest/content/items/c5615ae570bc4ef7a048cc2e1feaec77/data",
   "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
@@ -97,7 +95,8 @@
         "closeable": true,
         "uri": "widgets/GroupFilter/Widget",
         "config": "configs/GroupFilter/config__5.json",
-        "openAtStart": true
+        "openAtStart": true,
+        "label": "Date Filter: Select the date or date range to load. Is persistent across all layers when closed. Other widgets dependant on (\"Selector\", \"Swipe\", \"Profile\")."
       },
       {
         "position": {
@@ -111,7 +110,8 @@
         "version": "2.28",
         "closeable": true,
         "uri": "widgets/Swipe/Widget",
-        "config": "configs/Swipe/config__6.json"
+        "config": "configs/Swipe/config__6.json",
+        "label": "Swipe: Comparison between two layers. Determined by \"Date Filter\" and \"Layer\" widgets. Selected only two layers."
       },
       {
         "position": {
@@ -125,7 +125,8 @@
         "version": "2.23",
         "closeable": true,
         "uri": "widgets/ISImageSelector/Widget",
-        "config": "configs/ISImageSelector/config__7.json"
+        "config": "configs/ISImageSelector/config__7.json",
+        "label": "Date Selector: Selects a single layer by either a slider (default) or drop-down list. The configuration of \"Layer\" and \"Group Filter\" widgets determines the images available. Disable before closing."
       },
       {
         "position": {
@@ -139,7 +140,8 @@
         "closeable": true,
         "uri": "widgets/ISProfile/Widget",
         "name": "ISProfile",
-        "config": "configs/ISProfile/config__8.json"
+        "config": "configs/ISProfile/config__8.json",
+        "label": "Profile (product vs time): Extracts data values for an individual pixel (“Identify”) or a timeseries plot (“Temporal profile”). Determined by \"Date Filter\" widget and active \"Layer\"."
       },
       {
         "position": {
@@ -148,7 +150,10 @@
           "relativeTo": "map"
         },
         "placeholderIndex": 1,
-        "id": "_9"
+        "id": "_9",
+        "version": "2.28",
+        "closeable": true,
+        "uri": ""
       },
       {
         "uri": "widgets/OverviewMap/Widget",
@@ -195,13 +200,13 @@
       },
       {
         "uri": "widgets/Splash/Widget",
-        "visible": false,
         "position": {
           "relativeTo": "browser"
         },
         "version": "2.28",
         "id": "widgets_Splash_Widget_14",
-        "name": "Splash"
+        "name": "Splash",
+        "config": "configs/Splash/config_widgets_Splash_Widget_14.json"
       },
       {
         "uri": "widgets/ZoomSlider/Widget",
@@ -292,7 +297,8 @@
         "uri": "widgets/AddData/Widget",
         "config": "configs/AddData/config_widgets_AddData_Widget_21.json",
         "index": 2,
-        "id": "widgets_AddData_Widget_21"
+        "id": "widgets_AddData_Widget_21",
+        "label": "Add Data (search online):  You can search within or outside your organisation. If adding “fails” it is likely to be on a different projection to NZTM.  The LAYERS icon at the bottom right organises loaded layers for easy removal. If the layer dosn't appear, go the \"Layers\" widget, select the three-dots and change \"Set visibility range\"."
       },
       {
         "uri": "widgets/LayerList/Widget",
@@ -301,7 +307,7 @@
         "name": "LayerList",
         "index": 3,
         "config": "configs/LayerList/config_widgets_LayerList_Widget_19.json",
-        "openAtStart": true
+        "label": "Layers (with legends): Selection of MODIS-Aqua and OLCI-Sentinel-3 satellite products. Use the \"Add Data\" widget to load other layers of interest. Use the right arrow icon to view legend. Use the three-dot icon (...)  for further options."
       },
       {
         "name": "About",
@@ -309,7 +315,8 @@
         "uri": "widgets/About/Widget",
         "config": "configs/About/config_widgets_About_Widget_20.json",
         "index": 4,
-        "id": "widgets_About_Widget_20"
+        "id": "widgets_About_Widget_20",
+        "openAtStart": true
       }
     ],
     "groups": []
