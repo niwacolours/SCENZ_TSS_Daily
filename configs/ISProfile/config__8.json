@@ -70,5 +70,239 @@
     "redIndex": null,
     "swirIndex": null,
     "title": "Sentinel-3: TSM (g/m3) - Observed"
+  },
+  "modis.arcgis.com/arcgis/rest/services/MODIS/ImageServer": {
+    "hasOverlap": true,
+    "hasNDVI": false,
+    "ndvi": false,
+    "ndmi": false,
+    "urban": false,
+    "yAxisLabel": "Data Values",
+    "bandCount": 3,
+    "bandNames": [
+      ""
+    ],
+    "field": "AcquisitionDate",
+    "category": "Category",
+    "nirIndex": null,
+    "redIndex": null,
+    "swirIndex": null,
+    "title": "True Color - Corrected Reflectance (MODIS / Aqua)"
+  },
+  "gis.niwa.co.nz/raster/rest/services/CycloneGabrielle/TSM_NN/ImageServer": {
+    "hasOverlap": true,
+    "hasNDVI": false,
+    "ndvi": false,
+    "ndmi": false,
+    "urban": false,
+    "yAxisLabel": "Data Values",
+    "bandCount": 1,
+    "bandNames": [
+      ""
+    ],
+    "field": "StdTime",
+    "category": "Category",
+    "nirIndex": null,
+    "redIndex": null,
+    "swirIndex": null,
+    "title": "OLCI: TSM (g/m3) - Gap-free"
+  },
+  "gis.niwa.co.nz/raster/rest/services/CycloneGabrielle/TSM_NNclouds/ImageServer": {
+    "hasOverlap": true,
+    "hasNDVI": false,
+    "ndvi": false,
+    "ndmi": false,
+    "urban": false,
+    "yAxisLabel": "Data Values",
+    "bandCount": 1,
+    "bandNames": [
+      ""
+    ],
+    "field": "StdTime",
+    "category": "Category",
+    "nirIndex": null,
+    "redIndex": null,
+    "swirIndex": null,
+    "title": "OLCI: TSM (g/m3) - Observed"
+  },
+  "gis.niwa.co.nz/raster/rest/services/CycloneGabrielle/HVIS_Dlti/ImageServer": {
+    "hasOverlap": true,
+    "hasNDVI": false,
+    "ndvi": false,
+    "ndmi": false,
+    "urban": false,
+    "yAxisLabel": "Data Values",
+    "bandCount": 1,
+    "bandNames": [
+      ""
+    ],
+    "field": "StdTime",
+    "category": "Category",
+    "nirIndex": null,
+    "redIndex": null,
+    "swirIndex": null,
+    "title": "MODIS: HVIS (m) - Gap-free"
+  },
+  "gis.niwa.co.nz/raster/rest/services/CycloneGabrielle/HVIS_D/ImageServer": {
+    "hasOverlap": true,
+    "hasNDVI": false,
+    "ndvi": false,
+    "ndmi": false,
+    "urban": false,
+    "yAxisLabel": "Data Values",
+    "bandCount": 1,
+    "bandNames": [
+      ""
+    ],
+    "field": "StdTime",
+    "category": "Category",
+    "nirIndex": null,
+    "redIndex": null,
+    "swirIndex": null,
+    "title": "MODIS: HVIS (m) - Observed"
+  },
+  "gis.niwa.co.nz/raster/rest/services/CycloneGabrielle/TSS_Dlti/ImageServer": {
+    "hasOverlap": true,
+    "hasNDVI": false,
+    "ndvi": false,
+    "ndmi": false,
+    "urban": false,
+    "yAxisLabel": "Data Values",
+    "bandCount": 1,
+    "bandNames": [
+      ""
+    ],
+    "field": "StdTime",
+    "category": "Category",
+    "nirIndex": null,
+    "redIndex": null,
+    "swirIndex": null,
+    "title": "MODIS: TSS (g/m3) - Gap-free"
+  },
+  "gis.niwa.co.nz/raster/rest/services/CycloneGabrielle/TSS_D/ImageServer": {
+    "hasOverlap": true,
+    "hasNDVI": false,
+    "ndvi": false,
+    "ndmi": false,
+    "urban": false,
+    "yAxisLabel": "Data Values",
+    "bandCount": 1,
+    "bandNames": [
+      ""
+    ],
+    "field": "StdTime",
+    "category": "Category",
+    "nirIndex": null,
+    "redIndex": null,
+    "swirIndex": null,
+    "title": "MODIS: TSS (g/m3) - Observed"
+  },
+  "gis.niwa.co.nz/raster/rest/services/CycloneGabrielle/KPAR_Dlti/ImageServer": {
+    "hasOverlap": true,
+    "hasNDVI": false,
+    "ndvi": false,
+    "ndmi": false,
+    "urban": false,
+    "yAxisLabel": "Data Values",
+    "bandCount": 1,
+    "bandNames": [
+      ""
+    ],
+    "field": "StdTime",
+    "category": "Category",
+    "nirIndex": null,
+    "redIndex": null,
+    "swirIndex": null,
+    "title": "MODIS: KPAR (/m) - Gap-free"
+  },
+  "gis.niwa.co.nz/raster/rest/services/CycloneGabrielle/KPAR_D/ImageServer": {
+    "hasOverlap": true,
+    "hasNDVI": false,
+    "ndvi": false,
+    "ndmi": false,
+    "urban": false,
+    "yAxisLabel": "Data Values",
+    "bandCount": 1,
+    "bandNames": [
+      ""
+    ],
+    "field": "StdTime",
+    "category": "Category",
+    "nirIndex": null,
+    "redIndex": null,
+    "swirIndex": null,
+    "title": "MODIS: KPAR (/m) - Observed"
+  },
+  "gis.niwa.co.nz/raster/rest/services/CycloneGabrielle/SEC_Dlti/ImageServer": {
+    "hasOverlap": true,
+    "hasNDVI": false,
+    "ndvi": false,
+    "ndmi": false,
+    "urban": false,
+    "yAxisLabel": "Data Values",
+    "bandCount": 1,
+    "bandNames": [
+      ""
+    ],
+    "field": "StdTime",
+    "category": "Category",
+    "nirIndex": null,
+    "redIndex": null,
+    "swirIndex": null,
+    "title": "MODIS: SEC (m) - Gap-free"
+  },
+  "gis.niwa.co.nz/raster/rest/services/CycloneGabrielle/SEC_D/ImageServer": {
+    "hasOverlap": true,
+    "hasNDVI": false,
+    "ndvi": false,
+    "ndmi": false,
+    "urban": false,
+    "yAxisLabel": "Data Values",
+    "bandCount": 1,
+    "bandNames": [
+      ""
+    ],
+    "field": "StdTime",
+    "category": "Category",
+    "nirIndex": null,
+    "redIndex": null,
+    "swirIndex": null,
+    "title": "MODIS: SEC (m) - Observed"
+  },
+  "gis.niwa.co.nz/raster/rest/services/CycloneGabrielle/EBED_Dlti/ImageServer": {
+    "hasOverlap": true,
+    "hasNDVI": false,
+    "ndvi": false,
+    "ndmi": false,
+    "urban": false,
+    "yAxisLabel": "Data Values",
+    "bandCount": 1,
+    "bandNames": [
+      ""
+    ],
+    "field": "StdTime",
+    "category": "Category",
+    "nirIndex": null,
+    "redIndex": null,
+    "swirIndex": null,
+    "title": "MODIS: EBED (M/m2/d) - Gap-free"
+  },
+  "gis.niwa.co.nz/raster/rest/services/CycloneGabrielle/EBED_D/ImageServer": {
+    "hasOverlap": true,
+    "hasNDVI": false,
+    "ndvi": false,
+    "ndmi": false,
+    "urban": false,
+    "yAxisLabel": "Data Values",
+    "bandCount": 1,
+    "bandNames": [
+      ""
+    ],
+    "field": "StdTime",
+    "category": "Category",
+    "nirIndex": null,
+    "redIndex": null,
+    "swirIndex": null,
+    "title": "MODIS: EBED (M/m2/d) - Observed"
   }
 }

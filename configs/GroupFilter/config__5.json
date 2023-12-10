@@ -38,6 +38,54 @@
           "field": "AcquisitionDate",
           "dataType": "esriFieldTypeDate",
           "useDomain": ""
+        },
+        {
+          "layer": "18bdb1279c9-layer-12",
+          "field": "StdTime",
+          "dataType": "esriFieldTypeDate",
+          "useDomain": ""
+        },
+        {
+          "layer": "18bdb1f033f-layer-12",
+          "field": "StdTime",
+          "dataType": "esriFieldTypeDate",
+          "useDomain": ""
+        },
+        {
+          "layer": "18be9cc1921-layer-15",
+          "field": "StdTime",
+          "dataType": "esriFieldTypeDate",
+          "useDomain": ""
+        },
+        {
+          "layer": "18be9cd52fd-layer-16",
+          "field": "StdTime",
+          "dataType": "esriFieldTypeDate",
+          "useDomain": ""
+        },
+        {
+          "layer": "18be9cbf6eb-layer-13",
+          "field": "StdTime",
+          "dataType": "esriFieldTypeDate",
+          "useDomain": ""
+        },
+        {
+          "layer": "18be9cc04d3-layer-14",
+          "field": "StdTime",
+          "dataType": "esriFieldTypeDate",
+          "useDomain": ""
+        },
+        {
+          "layer": "18bedd3a70a-layer-17",
+          "field": "StdTime",
+          "dataType": "esriFieldTypeDate",
+          "useDomain": ""
+        },
+        {
+          "layer": "18bedd49189-layer-18",
+          "field": "StdTime",
+          "dataType": "esriFieldTypeDate",
+          "useDomain": ""
         }
       ]
     }

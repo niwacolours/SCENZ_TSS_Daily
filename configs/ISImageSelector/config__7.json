@@ -20,12 +20,66 @@
     "imageField": "StdTime",
     "objectID": "OBJECTID",
     "category": "Category",
-    "title": "Sentinel-3: TSM (g/m3) - Gap-free"
+    "title": "OLCI: TSM (g/m3) - Gap-free"
   },
   "18bd43a97aa-layer-4": {
     "imageField": "StdTime",
     "objectID": "OBJECTID",
     "category": "Category",
-    "title": "Sentinel-3: TSM (g/m3) - Observed"
+    "title": "OLCI: TSM (g/m3) - Observed"
+  },
+  "18bd4a9e2a0-layer-24": {
+    "imageField": "AcquisitionDate",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "True Color - Corrected Reflectance (MODIS / Aqua)"
+  },
+  "18bedd49189-layer-18": {
+    "imageField": "StdTime",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "MODIS: EBED (M/m2/d) - Gap-free"
+  },
+  "18bedd3a70a-layer-17": {
+    "imageField": "StdTime",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "MODIS: EBED (M/m2/d) - Observed"
+  },
+  "18be9cc04d3-layer-14": {
+    "imageField": "StdTime",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "MODIS: KPAR (/m) - Gap-free"
+  },
+  "18be9cbf6eb-layer-13": {
+    "imageField": "StdTime",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "MODIS: KPAR (/m) - Observed"
+  },
+  "18be9cd52fd-layer-16": {
+    "imageField": "StdTime",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "MODIS: SEC (m) - Gap-free"
+  },
+  "18be9cc1921-layer-15": {
+    "imageField": "StdTime",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "MODIS: SEC (m) - Observed"
+  },
+  "18bdb1f033f-layer-12": {
+    "imageField": "StdTime",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "MODIS: HVIS (m) - Gap-free"
+  },
+  "18bdb1279c9-layer-12": {
+    "imageField": "StdTime",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "MODIS: HVIS (m) - Observed"
   }
 }
